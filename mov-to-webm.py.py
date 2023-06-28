@@ -21,5 +21,5 @@ else:
             outputdir+"/"+name+".webm"
         ]
         subprocess.run(list_of_commands)
-        print("\n\nDONE: "+name+"\n\n")
+        print("\n\nDONE:"+name+"\n\n")
     print("\n\n\nALL DONE\n\n\n")
